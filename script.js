@@ -96,4 +96,10 @@ submitButton.addEventListener('click', function (e) {
     myLibrary.push(bookDetails);
     createBook(bookDetails);
     form.classList.toggle('visible');
+
+    let formFields = document.querySelectorAll('input');
+
+    formFields.forEach(field => {
+        field.value = '';
+    });
 });
