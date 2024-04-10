@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,38 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    
+    <h1>Library</h1>
+    <button class="addNewBook">NEW BOOK</button>
+
+    <div class="main">
+        <div class="book-details">
+            <form>
+                <ul>
+                    <li>
+                        <label for="bookName" id="bookName">Name</label>
+                        <input type="text" name="bookName" class="bookname">
+                    </li>
+                    <li>
+                        <label for="bookAuthor" id="bookAuthor">Author</label>
+                        <input type="text" name="bookAuthor" class="bookauthor">
+                    </li>
+
+                    <li>
+                        <label for="numberOfPages" id="numberOfPages">Number of pages</label>
+                        <input type="number" name="numberOfPages" class="numberofpages">
+                    </li>
+                </ul>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+
+        <div class="books">
+
+        </div>
+    </div>
 </body>
+
 </html>

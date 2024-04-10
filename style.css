@@ -7,3 +7,59 @@
 :root {
     height: 100vh;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.addNewBook {
+    margin-left: 150px;
+    height: 30px;
+    width: 100px;
+}
+
+.book-details {
+    width: 600px;
+    height: 150px;
+}
+
+.btn {
+    height: 30px;
+    width: 50px;
+    margin-left: 150px;
+}
+
+form {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: none;
+}
+
+form.visible {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: revert;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.readornot {
+    background-color: lightcoral;
+}
+
+.read {
+    background-color: lightgreen;
+}
